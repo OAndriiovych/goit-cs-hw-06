@@ -8,7 +8,7 @@ from multiprocessing import Process
 from datetime import datetime
 from pymongo.mongo_client import MongoClient
 
-URI = "mongodb+srv://narnanam:uDOeeenkKwb2KvqJ@cluster0.zanepuq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+URI = "mongodb://mongodb:27017"
 BASE_DIR = Path(__file__).parent
 BUFFER_SIZE = 1024
 HTTP_HOST = '0.0.0.0'
